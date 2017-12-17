@@ -1,0 +1,26 @@
+---
+
+- name: Sean Marcia
+  title: Founder
+  about: Came up with Code for Good, and it would not be possible without his hard work.
+  twitter: seanmarcia
+  github: SeanMarcia
+  img: assets/img/gallery/sean_thumbnail.jpg
+- name: Polly Schandorf
+  about: Loves community, helping others and making a difference in the world.
+  title: Cat Herder
+  twitter: N3rdyTeacher
+  github: pollygee
+  img: assets/img/gallery/polly_thumbnail.jpg
+- name: Terian Koscik
+  title: Organizer submodule
+  about: Programs weird and sometimes useful things, helps others do the same.
+  twitter: spine_cone
+  github: spinecone
+  img: assets/img/gallery/terian_thumbnail.png
+- name: Nate Smith
+  about: python programmer and digital community organizer who wants the world to suck less.
+  title: Co-organizer
+  twitter: nate_smith
+  github: nathanielksmith 
+  img: assets/img/gallery/nate_thumbnail.jpg
