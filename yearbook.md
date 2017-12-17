@@ -8,7 +8,7 @@ Here’s a list of the organizations and projects we’ve been able to help over
 
 #### 2016
 
- In 2016, Code for Good was held in Front Royal, Virgina at [George Mason University’s Smithsonian-Mason School of Conservation](http://smconservation.gmu.edu/).
+ In 2016, Python for Good was held in Front Royal, Virgina at [George Mason University’s Smithsonian-Mason School of Conservation](http://smconservation.gmu.edu/).
 
 ##### Portland Diaper Bank
 
@@ -88,7 +88,7 @@ Manjia was born out of disappointment over the amount of food waste created each
 
 #### 2015
 
-In 2015, Code for Good was held at the Fairfax Campus of George Mason University.
+In 2015, Python for Good was held at the Fairfax Campus of George Mason University.
 
 ##### Humane Society of Fairfax County
 
@@ -139,7 +139,7 @@ Contributing to the RSpec testing framework.
 
 #### 2014
 
-In 2014, Code for Good was held at the Fairfax Campus of George Mason University.
+In 2014, Python for Good was held at the Fairfax Campus of George Mason University.
 
 ##### Kutoa
 

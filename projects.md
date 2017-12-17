@@ -42,8 +42,8 @@ Every child has the right to happiness and to grow up in a safe environment. Unf
 
 #### Meta
 
-Code For Good is a non-profit, too :) The organizers will be leading a very
-informal team to work on the Code For Good website and brainstorm ideas for
+Python for Good is a non-profit, too :) The organizers will be leading a very
+informal team to work on the Python for Good website and brainstorm ideas for
 future events. We strongly encourage attendees to consider our partner
 non-profits' projects first, but feel free to drop by and give us any feedback
 or ideas during the event.

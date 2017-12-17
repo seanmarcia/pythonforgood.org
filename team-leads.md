@@ -3,12 +3,12 @@ layout: page
 ---
 
 ### Team Lead Guide
-So you’re considering leading a team for Code for Good 2017. You’re probably
+So you’re considering leading a team for Python for Good 2017. You’re probably
 wondering what the heck that means. We’ve assembled some info on 1) what you can
 expect, 2) what we’ll expect from you, and 3) how to actually go about signing
 up.
 
-We’ll start with the tl;dr – **Bottom line: Being a Code for Good Team Lead
+We’ll start with the tl;dr – **Bottom line: Being a Python for Good Team Lead
 means making a 8-week commitment to lead and deliver an open source project—4
 weeks prepping before the event, and 4 weeks of follow up after the event.**
 
@@ -21,8 +21,8 @@ As a team lead you will be connecting with a partner organization that has a
 non-profit or civic mandate and work to deliver them software in support of
 their mission. This entails everything from meeting with the stakeholders,
 gathering requirements, translating those requirements, providing initial
-architecting, planning out project milestones, communicating with Code for Good
-organizers, pitching your project to Code for Good attendees, leading your team
+architecting, planning out project milestones, communicating with Python for Good
+organizers, pitching your project to Python for Good attendees, leading your team
 at the event on July 27 - 30, and then seeing the project through to completion.
 
 #### What we expect from team leads:
@@ -55,17 +55,17 @@ at the event on July 27 - 30, and then seeing the project through to completion.
 * Connect face-to-face with stakeholder for SECOND time, tell them where you are
   in solving their business problem. Make sure you're ready for the event.
 * Attend all-hands google hangout for 2017 team leads – a final check in to get your questions answered before the official event happens in one week.
-* Attend Code For Good!
-* Pitch your project to Code for Good attendees on opening night (5pm sharp): provide a brief intro to the organization, to the project, ask for specific technical skills if needed, communicate your team’s goals if you feel strongly about it (examples: deploy by end of event, emphasize team learning, master new libraries, mandate pairing for all coding, etc.)
+* Attend Python for Good!
+* Pitch your project to Python for Good attendees on opening night (5pm sharp): provide a brief intro to the organization, to the project, ask for specific technical skills if needed, communicate your team’s goals if you feel strongly about it (examples: deploy by end of event, emphasize team learning, master new libraries, mandate pairing for all coding, etc.)
 
 ###### Week 5 (July 30-August 6th)
-* Attend Code For Good!
+* Attend Python for Good!
 * Set team goals with your team. See above for inspiration.
 * Lead the team during the event.
 
 ###### Week 6 (August 6-13)
 * Make plan to deploy with organizer.
-* Note that about 20% of our projects finish during the event—and we’re happy about that. We don’t want you or your team burning yourselves out. Code for Good is as much about building community as it is about doing good. If you work late into the evenings, you miss out on playing board games and werewolf and we want to see your face during these social times!
+* Note that about 20% of our projects finish during the event—and we’re happy about that. We don’t want you or your team burning yourselves out. Python for Good is as much about building community as it is about doing good. If you work late into the evenings, you miss out on playing board games and werewolf and we want to see your face during these social times!
 * Coordinate with any attendees who would like to work on the project after the event (This is completely optional on the part of the attendees, but many folks like to see projects through after the event).
 
 ###### Week 7 (August 13- Aug 20)

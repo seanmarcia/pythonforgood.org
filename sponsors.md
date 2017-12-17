@@ -4,7 +4,7 @@ layout: page
 
 ### Sponsors
 
-We're very proud to be organizing the Code for Good conference. This conference, to our knowledge, is the first and currently only conference of this kind for the Python programming language ever. We are bringing together Pythonistas to learn, teach, and work on civic and open source projects.
+We're very proud to be organizing the Python for Good conference. This conference, to our knowledge, is the first and currently only conference of this kind for the Python programming language ever. We are bringing together Pythonistas to learn, teach, and work on civic and open source projects.
 
 
 ###### Why Sponsor?
@@ -115,8 +115,8 @@ $1 – $500
 <a href="mailto:{{ site.data.constants.contact_email }}?subject=Donor Sponsorship" class="btn btn-sm btn-primary">Contact Us</a>
 </div>
 
-- Contribute towards the Code for Good Scholarship fund, used to allow more people the opportunity to participate
-- Feel great about making Code for Good gooder
+- Contribute towards the Python for Good Scholarship fund, used to allow more people the opportunity to participate
+- Feel great about making Python for Good gooder
 
 </div>
 </div>

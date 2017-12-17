@@ -859,7 +859,7 @@ class MCAPI {
      * @param string $cid the campaign id to pull bounces for (can be gathered using campaigns())
      * @param string $code An ISO3166 2 digit country code
      * @return array regions an array of regions within the provided country where opens occurred. 
-                string code An internal code for the region. When this is blank, it indicates we know the country, but not the region
+                string code An internal Python for the region. When this is blank, it indicates we know the country, but not the region
                 string name The name of the region, if we have one. For blank "code" values, this will be "Rest of Country"
                 int opens The total number of opens that occurred in the country
      */

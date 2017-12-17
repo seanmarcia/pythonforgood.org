@@ -4,11 +4,11 @@ layout: page
 
 ### FAQ:
 
-##### What is Code for Good?
+##### What is Python for Good?
 
-Code for Good is a new annual event based out of the Portland area where programmers from all over the globe get together over a long weekend to build projects that help our communities. Think hanging out in communal space for a weekend with a bunch of developers and designers to build something useful. Participants stay in on-site dorms; hacking and socializing takes place in communal areas. Join us just for the fun of giving back! Questions? Check out the FAQ below or drop us a <a href="mailto:{{ site.data.constants.contact_email }}">note</a>.
+Python for Good is a new annual event based out of the Portland area where programmers from all over the globe get together over a long weekend to build projects that help our communities. Think hanging out in communal space for a weekend with a bunch of developers and designers to build something useful. Participants stay in on-site dorms; hacking and socializing takes place in communal areas. Join us just for the fun of giving back! Questions? Check out the FAQ below or drop us a <a href="mailto:{{ site.data.constants.contact_email }}">note</a>.
 
-##### Why are ya'll organizing Code for Good?
+##### Why are ya'll organizing Python for Good?
 
 Lots of organizations need the sort of technical help we can provide but are unable to afford it. We want to be the do-gooders that volunteer to solve non-profit business/technical problems. Very little effort on our part can make a huge difference to a non-profit. We want to help!
 <!-- Inception story here -->
@@ -60,8 +60,8 @@ During registration we'll ask if you'd like to lead a team - say yes! We'll be
 in touch in early July with potential projects. We'll brief you on
 expectations and put you in touch with your non-profit so you can work with them
 in advance of the event to set up project requirements, milestones and initial
-set up so you can hit the ground running with your team at Code for Good. Setup
-includes creating a github repo under the Code for Good github, filing issues
+set up so you can hit the ground running with your team at Python for Good. Setup
+includes creating a github repo under the Python for Good github, filing issues
 and making some technology
 suggestions. [You can read about the team lead process here](/team-leads).
 
@@ -69,7 +69,7 @@ suggestions. [You can read about the team lead process here](/team-leads).
 
 In general, leading a team entails connecting with stakeholders, initial architecting, planning out project milestones, and keeping your team moving forward. Here's more <a href="http://www.blrice.net/blog/2014/08/09/lessons-learned-at-Code-for-good/">information</a> about leading a team from Brandon Rice, a team lead in 2015 (who was SUPER awesome. Just sayin'.). Still not sure and want to talk about it with an organizer? Drop us a <a href="mailto:{{ site.data.constants.contact_email }}">note</a>.
 
-##### Do you allow remote teams at Code for Good?
+##### Do you allow remote teams at Python for Good?
 
 Unfortunately we're unable to accomodate remote teams this time around. We'd be open to discussing that as an option in 2018 for very enterprising and motivated individuals. Drop us a <a href="mailto:{{ site.data.constants.contact_email }}">note</a>.
 
@@ -77,12 +77,12 @@ Unfortunately we're unable to accomodate remote teams this time around. We'd be 
 
 * Suggest a project - We always need worthy projects! We've compiled a google doc to help you figure out a project. <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDhmp0I_qW08biCxt0uMwvAkWmLvwkWefZ4_Yt9NgEASKBrA/viewform"><i class="fa fa-heart-o fa-1x"></i>Suggest a project!</a>
 * Lead a team - a great way to up your skills, especially if you've been programming for a while and are eager for the experience of leading a team.
-* Donations/Sponsors - we need lots of help with fundraising. Code for Good is expensive and we'd like to offer tickets to the wonderful folks who volunteer for as little as possible. This is only possible with donations and sponsors! Reach out to your employers to see if they would be willing to help us give back to our community. :)
+* Donations/Sponsors - we need lots of help with fundraising. Python for Good is expensive and we'd like to offer tickets to the wonderful folks who volunteer for as little as possible. This is only possible with donations and sponsors! Reach out to your employers to see if they would be willing to help us give back to our community. :)
 * Attendees - we need Python, Javscript, and designer expertise!
 
 ##### Is this a hackathon?
 
-No. This is definitely not a hackathon. Sean cringes everytime someone mentions 'hackathon' and 'Code for Good' in the same sentence. (Try it.)
+No. This is definitely not a hackathon. Sean cringes everytime someone mentions 'hackathon' and 'Python for Good' in the same sentence. (Try it.)
 
 ##### When do I need to purchase my tickets?
 
@@ -150,7 +150,7 @@ We are proud to have a <a href="/coc">code of conduct</a>.
 
 ##### How is 2017 different from 2016?
 
-For starters, Code For Good didn't exist in 2016 :) We're an offshoot of Ruby
+For starters, Python for Good didn't exist in 2016 :) We're an offshoot of Ruby
 For Good, an event on the east coast that Sean has been running for years. The
 main differences from the last Ruby for Good event are the switch to Python,
 opting for communal meals over catered food, and being on the west coast.
