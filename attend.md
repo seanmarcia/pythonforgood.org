@@ -35,7 +35,7 @@ a [note](mailto:{{ site.data.constants.contact_email }}).
 
 ###### Purchasing tickets
 
-Tickets are [on sale now](https://ti.to/codeforgood/code-for-good)!
+Tickets are [on sale now](https://ti.to/codeforgood/pythonforgood)!
 
 Please read our [Code of Conduct](/coc.html) prior to attending.
 
