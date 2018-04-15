@@ -3,7 +3,7 @@ layout: page
 ---
 
 ### Team Lead Guide
-So you’re considering leading a team for Python for Good 2017. You’re probably
+So you’re considering leading a team for Python for Good 2018. You’re probably
 wondering what the heck that means. We’ve assembled some info on 1) what you can
 expect, 2) what we’ll expect from you, and 3) how to actually go about signing
 up.
@@ -28,7 +28,7 @@ at the event on July 27 - 30, and then seeing the project through to completion.
 #### What we expect from team leads:
 
 ###### Week 1 (July 1-7)
-* Attend an all-hands google hangout for 2017 team leads
+* Attend an all-hands google hangout for 2018 team leads
 * After your organizer writes an introduction email, reach out to stakeholder via email to introduce yourself
 * Research your organization and familiarize yourself with their business problems. Begin to understand the organization and their needs.
 
@@ -54,11 +54,11 @@ at the event on July 27 - 30, and then seeing the project through to completion.
 ###### Week 4 (July 22-29)
 * Connect face-to-face with stakeholder for SECOND time, tell them where you are
   in solving their business problem. Make sure you're ready for the event.
-* Attend all-hands google hangout for 2017 team leads – a final check in to get your questions answered before the official event happens in one week.
+* Attend all-hands google hangout for 2018 team leads – a final check in to get your questions answered before the official event happens in one week.
 * Attend Python for Good!
 * Pitch your project to Python for Good attendees on opening night (5pm sharp): provide a brief intro to the organization, to the project, ask for specific technical skills if needed, communicate your team’s goals if you feel strongly about it (examples: deploy by end of event, emphasize team learning, master new libraries, mandate pairing for all coding, etc.)
 
-###### Week 5 (July 30-August 6th)
+###### Week 5 (July 29-August 6th)
 * Attend Python for Good!
 * Set team goals with your team. See above for inspiration.
 * Lead the team during the event.

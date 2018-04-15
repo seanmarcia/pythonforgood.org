@@ -148,10 +148,7 @@ Rooms contain two single beds and a bathroom. After registration closes (July 10
 
 We are proud to have a <a href="/coc">code of conduct</a>.
 
-##### How is 2017 different from 2016?
+##### How is 2018 different from 2017?
 
-For starters, Python for Good didn't exist in 2016 :) We're an offshoot of Ruby
-For Good, an event on the east coast that Sean has been running for years. The
-main differences from the last Ruby for Good event are the switch to Python,
-opting for communal meals over catered food, and being on the west coast.
+We're going to be building on the great work we did in 2017 as well as starting some excellent new projects. We loved the communal cooking and food in 2017 but we may get our food in 2018 from Reed college.
 
