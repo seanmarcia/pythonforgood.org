@@ -13,7 +13,7 @@ This is an event for people of *all* skill levels so even if you are new, don't 
 
 ###### That Sounds Awesome, Tell Me More!
 
-[Here is the schedule for 2018.](/2017.html)
+[Here is the schedule for 2018.](/2018.html)
 
 <!-- Here is what actual attendees have written about the event: -->
 
