@@ -98,7 +98,7 @@ The event costs money to put on. We try to raise as much as possible through spo
 
 ##### When do tickets go on sale?
 
-They are [on sale now](https://ti.to/codeforgood/code-for-good)!
+They are [on sale now](https://ti.to/codeforgood/pythonforgood)!
 
 ##### Do I really HAVE to get there by 5pm on Thursday?
 
