@@ -12,15 +12,15 @@
   twitter: N3rdyTeacher
   github: pollygee
   img: assets/img/gallery/polly_thumbnail.jpg
-- name: Terian Koscik
-  title: Organizer submodule
-  about: Programs weird and sometimes useful things, helps others do the same.
-  twitter: spine_cone
-  github: spinecone
-  img: assets/img/gallery/terian_thumbnail.png
-- name: Nate Smith
-  about: python programmer and digital community organizer who wants the world to suck less.
-  title: Co-organizer
-  twitter: nate_smith
-  github: nathanielksmith 
-  img: assets/img/gallery/nate_thumbnail.jpg
+- name: Melanie White
+  title: Python Ambassador
+  about: Passionate about raising awareness of social issues and injustice.
+  twitter: theViewFrom5ft2
+  github: melaniew
+  img: assets/img/gallery/melanie_thumbnail.jpeg
+- name: Python Community
+  about: We can't do this without the support of this amazing community.
+  title: Everywhere
+  twitter: pythonforgood
+  github: pythonforgood 
+  img: assets/img/gallery/community_thumbnail.png
