@@ -143,7 +143,7 @@
       panControl: false,
       mapTypeControl: false,
       streetViewControl: false,
-      center: new google.maps.LatLng(45.4808317,-122.6314011),
+      center: new google.maps.LatLng(45.5147025,-122.681607),
       mapTypeControlOptions: {
         mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
       },
