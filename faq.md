@@ -6,7 +6,7 @@ layout: page
 
 ##### What is Python for Good?
 
-Python for Good is a new annual event based out of the Portland area where programmers from all over the globe get together over a long weekend to build projects that help our communities. Think hanging out in communal space for a weekend with a bunch of developers and designers to build something useful. Participants stay in on-site dorms; hacking and socializing takes place in communal areas. Join us just for the fun of giving back! Questions? Check out the FAQ below or drop us a <a href="mailto:{{ site.data.constants.contact_email }}">note</a>.
+Python for Good is a new annual event based out of the Portland area where programmers from all over the globe get together over a long weekend to build projects that help our communities. Think hanging out in communal space for a weekend with a bunch of developers and designers to build something useful. Join us just for the fun of giving back! Questions? Check out the FAQ below or drop us a <a href="mailto:{{ site.data.constants.contact_email }}">note</a>.
 
 ##### Why are ya'll organizing Python for Good?
 
@@ -17,7 +17,7 @@ Lots of organizations need the sort of technical help we can provide but are una
 
 All experience levels are welcome! We have a wide variety of skill
 levels ranging from those who have next to no experience, all the way up to very
-senior people who work at places like Github and LivingSocial. The event is as
+senior people who work at places like Github and PDX Coding Guild. The event is as
 much about learning as it is about building great things. Groups are very
 collaborative and you'll definitely have the opportunity to work closely with
 others on a variety of tasks.
@@ -84,10 +84,6 @@ Unfortunately we're unable to accomodate remote teams this time around. We'd be 
 
 No. This is definitely not a hackathon. Sean cringes everytime someone mentions 'hackathon' and 'Python for Good' in the same sentence. (Try it.)
 
-##### When do I need to purchase my tickets?
-
-By July 12th if you want to guarantee yourself a conference shirt or when we sell out, whichever comes first!
-
 ##### Oops, I bought my ticket and now I can't go. Will you please refund/transfer?
 
 After June 28th we will be unable to offer refunds but we will happily help coordinate exchanges until May 1st. Drop us a <a href="mailto:{{ site.data.constants.contact_email }}">note</a>.
@@ -110,14 +106,7 @@ Most of the organizing team is planning on arriving at 10am but feel free to bea
 
 ##### How does food work?
 
-Teams will be provided with ingredients (protein, starch, and veg) and be
-cooking communal meals. If we can get the right level of funding, we'll be
-providing cooked dishes for some or all meals, but expect to be mildly roughing
-it. We will ensure no one goes hungry!
-
-##### I'm a vegetarian/dairy-free/vegan/gluten-free/paleo/allergic to... will you feed me?
-
-Absolutely. 
+With the reduced price and new venue we're going to do our best but we will provide you lunch and dinner! 
 
 ##### Do you have scholarships?
 
@@ -136,19 +125,11 @@ recommended.
 
 Hop into the #carpool channel in slack for more info!
 
-##### How do I indicate I want to room with my friend/significant other?
-
-During registration we ask if there's anything else you'd like us to know - indicate in this section who you'd like to room with and we'll make it happen.
-
-##### How do room assignments work?
-
-Rooms contain two single beds and a bathroom. After registration closes (July 10), we will create random, same-gender room assignments (unless specifically requested otherwise via the registration form). We are tentatively planning to introduce you and your roomie via email so you know who you're staying with ahead of time. If you've neglected to indicate your roommate preference in the registration form, please drop us a <a href="mailto:{{ site.data.constants.contact_email }}">note</a>.
-
 ##### Do you have a code of conduct?
 
 We are proud to have a <a href="/coc">code of conduct</a>.
 
 ##### How is 2018 different from 2017?
 
-We're going to be building on the great work we did in 2017 as well as starting some excellent new projects. We loved the communal cooking and food in 2017 but we may get our food in 2018 from Reed college.
+We're going to be building on the great work we did in 2017 as well as starting some excellent new projects.
 
