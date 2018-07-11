@@ -150,21 +150,24 @@
       mapTypeId: MY_MAPTYPE_ID
     };
 
-    map = new google.maps.Map(document.getElementById('canvas-map'),mapOptions);
-    var image = 'assets/img/pmarker.png';
-    var myLatLng = new google.maps.LatLng(45.5147025,-122.681607);
-    var beachMarker = new google.maps.Marker({
-      position: myLatLng,
-      map: map,
-      icon: image
-    });
-    var styledMapOptions = {
-      name: 'Custom Style'
-    };
+    // If there's no map, just return.
+    if (document.getElementById('canvas-map')) {
+      map = new google.maps.Map(document.getElementById('canvas-map'),mapOptions);
+      var image = 'assets/img/pmarker.png';
+      var myLatLng = new google.maps.LatLng(45.5147025,-122.681607);
+      var beachMarker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        icon: image
+      });
+      var styledMapOptions = {
+        name: 'Custom Style'
+      };
 
-    var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
+      var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
 
-    map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+      map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+    }
   }
 
   google.maps.event.addDomListener(window, 'load', initialize);
