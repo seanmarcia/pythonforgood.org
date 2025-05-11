@@ -3,93 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python for Good - Coming Back Soon!</title>
+    <title>Python for Good - Returning August 2025!</title>
     <style>
+        :root {
+            --python-blue: #3776ab;
+            --python-yellow: #ffd43b;
+            --dark-blue: #306998;
+            --light-bg: #f5f9fc;
+            --box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            --transition: all 0.3s ease;
+        }
+        
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f9fc;
+            background-color: var(--light-bg);
             color: #333;
             line-height: 1.6;
         }
+        
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 2rem;
-            text-align: center;
         }
+        
         header {
-            margin-bottom: 2rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
         }
+        
         h1 {
-            color: #3776ab;
-            font-size: 2.5rem;
+            color: var(--python-blue);
+            font-size: 3rem;
             margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
         }
+        
+        h2 {
+            color: var(--dark-blue);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        
         .subtitle {
-            color: #ffd43b;
+            color: var(--python-yellow);
             font-size: 1.5rem;
             font-weight: bold;
-            background-color: #306998;
+            background-color: var(--dark-blue);
             display: inline-block;
             padding: 0.5rem 1.5rem;
             border-radius: 50px;
             margin-bottom: 2rem;
+            box-shadow: var(--box-shadow);
         }
+        
         .announcement {
             background-color: white;
-            border-radius: 10px;
-            padding: 2rem;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            margin-bottom: 2rem;
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: var(--box-shadow);
+            margin-bottom: 3rem;
+            text-align: left;
         }
+        
+        .announcement p {
+            font-size: 1.1rem;
+            margin-bottom: 1.2rem;
+        }
+        
+        .date-banner {
+            background-color: var(--python-blue);
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            text-align: center;
+            box-shadow: var(--box-shadow);
+        }
+        
         .date {
-            font-size: 2rem;
-            color: #3776ab;
+            font-size: 2.2rem;
             font-weight: bold;
-            margin: 1.5rem 0;
+            margin: 0.5rem 0;
+            display: block;
         }
+        
+        .date-label {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            display: block;
+        }
+        
         .python-logo {
-            margin: 1rem 0;
-            width: 150px;
-            height: 150px;
-            display: inline-block;
+            margin: 1rem auto;
+            width: 180px;
+            height: 180px;
+            display: block;
+            filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
         }
+        
         .features {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             flex-wrap: wrap;
-            margin: 2rem 0;
+            margin: 3rem 0;
+            gap: 2rem;
         }
+        
         .feature {
-            flex-basis: 30%;
-            margin-bottom: 1.5rem;
+            flex-basis: calc(29% - 2rem);
+            background-color: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+            text-align: center;
         }
+        
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+        }
+        
         .feature-icon {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            color: #3776ab;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--python-blue);
         }
+        
+        .feature h3 {
+            color: var(--dark-blue);
+            margin-top: 0.5rem;
+        }
+        
         .cta {
-            background-color: #3776ab;
+            background-color: var(--python-blue);
             color: white;
+            text-decoration: none;
             border: none;
-            padding: 0.8rem 2rem;
+            padding: 1rem 2.5rem;
             font-size: 1.2rem;
-            border-radius: 5px;
+            font-weight: bold;
+            border-radius: 50px;
             cursor: pointer;
-            transition: all 0.3s;
-            margin-top: 1rem;
+            transition: var(--transition);
+            margin-top: 2rem;
+            display: inline-block;
+            box-shadow: var(--box-shadow);
         }
+        
         .cta:hover {
-            background-color: #306998;
-            transform: translateY(-2px);
+            background-color: var(--dark-blue);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
         }
+        
+        .highlight {
+            background-color: rgba(255, 212, 59, 0.2);
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        .event-details {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background-color: rgba(55, 118, 171, 0.05);
+            border-left: 4px solid var(--python-blue);
+            border-radius: 0 8px 8px 0;
+        }
+        
         footer {
-            margin-top: 3rem;
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eee;
             color: #777;
             font-size: 0.9rem;
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+            }
+            
+            .feature {
+                flex-basis: 100%;
+                margin-bottom: 1.5rem;
+            }
+            
+            .announcement {
+                padding: 1.5rem;
+            }
         }
     </style>
 </head>
@@ -122,26 +230,50 @@
         <div class="announcement">
             <h2>We're Coming Back!</h2>
             <p>After a brief hiatus, we're excited to announce that Python for Good will be returning with more projects, workshops, and opportunities to use Python for social impact.</p>
-            <div class="date">End of August 2025</div>
-            <p>Mark your calendars and get ready to code for a cause!</p>
-            <button class="cta">Stay Updated</button>
+            
+            <div class="date-banner">
+                <span class="date-label">Save the Date</span>
+                <span class="date">August 28-31, 2025</span>
+                <span class="date-label">4 Days of Coding & Community</span>
+            </div>
+
+            <div class="event-details">
+                <h2>What is Python for Good?</h2>
+                <p>Python for Good is organized by <span class="highlight">Code for Good</span>, the same nonprofit that organizes Ruby for Good. We're bringing that same sense of community and collaboration to the Python ecosystem.</p>
+                
+                <p>We build and maintain <span class="highlight">open source software</span> for nonprofits and social sector organizations. Unlike traditional hackathons, we focus equally on community building and helping our nonprofit partners.</p>
+                
+                <p>Think of our events as <span class="highlight">"nerd camps"</span> where we:</p>
+                <ul>
+                    <li>Code with purpose for real-world impact</li>
+                    <li>Create sustainable software that continues after the event</li>
+                    <li>Build meaningful connections with like-minded developers</li>
+                    <li>Fun activities after coding wraps up for the day – board games, karaoke, and campfire s'mores!</li>
+                </ul>
+                
+                <p>The software we build isn't throwaway code – it's maintained into the future and makes a <span class="highlight">real difference</span> in the world.</p>
+            </div>
+
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="mailto:sean@pythonforgood.org" class="cta">Get in Touch</a>
+            </div>
         </div>
 
         <div class="features">
             <div class="feature">
                 <div class="feature-icon">🌱</div>
                 <h3>Projects for Change</h3>
-                <p>Collaborative coding projects with nonprofits and social enterprises</p>
+                <p>Collaborative coding projects with nonprofits and social enterprises that address real-world challenges</p>
             </div>
             <div class="feature">
                 <div class="feature-icon">🧠</div>
                 <h3>Learn & Grow</h3>
-                <p>Leadership opportunities and mentorship for developers of all levels</p>
+                <p>Leadership opportunities and mentorship for developers of all skill levels in a supportive environment</p>
             </div>
             <div class="feature">
                 <div class="feature-icon">🤝</div>
                 <h3>Community</h3>
-                <p>Connect with like-minded developers passionate about social impact</p>
+                <p>Connect with like-minded developers passionate about using technology for social impact</p>
             </div>
         </div>
 
