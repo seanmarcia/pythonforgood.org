@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attend Python for Good - August 2025</title>
+    <style>
+        :root {
+            --python-blue: #3776ab;
+            --python-yellow: #ffd43b;
+            --dark-blue: #306998;
+            --light-bg: #f5f9fc;
+            --box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            --transition: all 0.3s ease;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            color: var(--python-blue);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        
+        h2 {
+            color: var(--dark-blue);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+        
+        h3 {
+            color: var(--dark-blue);
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.4rem;
+        }
+        
+        h4 {
+            color: var(--dark-blue);
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        .intro {
+            font-size: 1.2rem;
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: var(--box-shadow);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .intro p {
+            margin-bottom: 1rem;
+        }
+        
+        .section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--box-shadow);
+        }
+        
+        .section-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .section-icon {
+            font-size: 2rem;
+            margin-right: 1rem;
+            color: var(--python-blue);
+        }
+        
+        .schedule-item {
+            border-left: 3px solid var(--python-yellow);
+            padding-left: 1.5rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+        
+        .schedule-item:before {
+            content: "";
+            position: absolute;
+            left: -8px;
+            top: 0;
+            width: 13px;
+            height: 13px;
+            background-color: var(--python-yellow);
+            border-radius: 50%;
+        }
+        
+        .schedule-time {
+            font-weight: bold;
+            color: var(--dark-blue);
+        }
+        
+        .cta {
+            background-color: var(--python-blue);
+            color: white;
+            text-decoration: none;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: var(--transition);
+            display: inline-block;
+            box-shadow: var(--box-shadow);
+        }
+        
+        .cta:hover {
+            background-color: var(--dark-blue);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+        
+        .cta-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .highlight {
+            background-color: rgba(255, 212, 59, 0.2);
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        .tab-container {
+            margin-bottom: 2rem;
+        }
+        
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: var(--box-shadow);
+        }
+        
+        .tab {
+            background-color: #f1f1f1;
+            padding: 1rem 1.5rem;
+            cursor: pointer;
+            flex-grow: 1;
+            text-align: center;
+            font-weight: bold;
+            transition: var(--transition);
+            border: none;
+            outline: none;
+        }
+        
+        .tab.active {
+            background-color: var(--python-blue);
+            color: white;
+        }
+        
+        .tab:hover:not(.active) {
+            background-color: #ddd;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        /* Added styles for navigation */
+        nav {
+            background-color: var(--python-blue);
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--box-shadow);
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav li {
+            margin: 0 1rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: var(--transition);
+        }
+        
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        nav a.active {
+            background-color: var(--python-yellow);
+            color: var(--dark-blue);
+        }
+        
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        
+        .note {
+            background-color: rgba(255, 212, 59, 0.1);
+            border-left: 4px solid var(--python-yellow);
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .tabs {
+                flex-direction: column;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attend.html" class="active">Attend</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Attend Python for Good</h1>
+            <p>August 28-31, 2025 | A weekend of code, community, and impact</p>
+        </header>
+
+        <div class="intro">
+            <h2>The Python for Good Experience</h2>
+            <p>Python for Good is more than just a coding event – it's a <span class="highlight">community experience</span> where you'll leave with 50 new best friends!</p>
+            <p>Our attendees are known to be the <span class="highlight">nicest and kindest folks</span> in the Python community, creating a welcoming environment for developers of all skill levels.</p>
+            <p>This event is equally focused on <span class="highlight">growing the community and providing learning opportunities</span> as it is on helping nonprofits with sustainable software solutions.</p>
+        </div>
+
+        <div class="tab-container">
+            <div class="tabs">
+                <button class="tab active" onclick="openTab(event, 'attendees')">For Attendees</button>
+                <button class="tab" onclick="openTab(event, 'leads')">For Team Leads</button>
+                <button class="tab" onclick="openTab(event, 'nonprofits')">For Nonprofits</button>
+            </div>
+
+            <div id="attendees" class="tab-content active section">
+                <div class="section-title">
+                    <div class="section-icon">👩‍💻</div>
+                    <h2>Attending as a Regular Participant</h2>
+                </div>
+                
+                <h3>Before the Event</h3>
+                <p>A week before the event, you'll receive an email with links to:</p>
+                <ul>
+                    <li>The GitHub repos we've created for our nonprofit partners</li>
+                    <li>Information about each nonprofit organization</li>
+                    <li>Preparation instructions to help you hit the ground running</li>
+                </ul>
+
+                <h3>Event Schedule</h3>
+                
+                <h4>Thursday - Kickoff Day</h4>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">4:00PM:</span> Kickoff begins! Team leads will give 60-90 second pitches about their projects and then sit at their assigned tables.</p>
+                </div>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">After pitches:</span> "Speed dating" session where you can visit each project table, ask questions, and find the project that best matches your skills and interests.</p>
+                </div>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">5:00PM:</span> Dinner with your new team! This is a great opportunity for excellent socializing and making new friends.</p>
+                </div>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">6:00PM:</span> Project setup time. Team leads will ensure everyone has the project cloned and running on their machines.</p>
+                </div>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">6:30PM:</span> Evening fun! Board games, karaoke, campfire s'mores, and other nerd-friendly activities.</p>
+                </div>
+                
+                <div class="note">
+                    <p><strong>Note:</strong> If you have a fun hobby you want to share with others, bring it along! In the past, attendees have brought adult coloring books, taught dancing, led nature walks, and hosted yoga/mindfulness sessions.</p>
+                </div>
+                
+                <h4>Friday - First Full Day</h4>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">8:30AM:</span> Breakfast</p>
+                </div>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">9:30AM - 12:30PM:</span> Project work with your team - coding, documentation, and more!</p>
+                </div>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">12:30PM - 1:30PM:</span> Lunch</p>
+                </div>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">1:30PM - 5:30PM:</span> Continued project work</p>
+                </div>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">5:30PM - 6:30PM:</span> Dinner</p>
+                </div>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">After dinner:</span> More evening activities! Board games, campfires, and community fun.</p>
+                </div>
+                
+                <h4>Saturday - Second Full Day</h4>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">8:30AM - 5:30PM:</span> Same schedule as Friday (breakfast, project work, lunch, more project work, dinner)</p>
+                </div>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">Evening:</span> Career Fair! Our sponsors will address attendees, followed by a free-form discussion covering topics like:</p>
+                    <ul>
+                        <li>Finding your first job</li>
+                        <li>How to find a mentor/mentee</li>
+                        <li>Interviewing advice</li>
+                        <li>Career growth in tech</li>
+                    </ul>
+                </div>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">After Career Fair:</span> More games, campfires, and community building!</p>
+                </div>
+                
+                <h4>Sunday - Final Day</h4>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">8:30AM - 9:30AM:</span> Breakfast</p>
+                </div>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">9:30AM - 11:30AM:</span> Final project work and demo preparation</p>
+                </div>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">11:30AM:</span> Team presentations with nonprofit partners! Each team will showcase their achievements and you'll hear directly from nonprofits about how your work will make a real difference.</p>
+                </div>
+                <div class="schedule-item">
+                    <p><span class="schedule-time">After demos:</span> Lunch and fond farewells to all your new best friends!</p>
+                </div>
+            </div>
+
+            <div id="leads" class="tab-content section">
+                <div class="section-title">
+                    <div class="section-icon">👨‍🏫</div>
+                    <h2>Being a Team Lead</h2>
+                </div>
+                
+                <p>Team leads participate in all the same activities as attendees while also taking on the responsibility of leading one of our projects. Don't worry—you won't be alone!</p>
+                
+                <div class="note">
+                    <p><strong>Important:</strong> If you're worried about not being technical enough, please still check the interest box when you register! Some of our best team leads have been junior developers with the right mindset—organized, efficient, kind, helpful, and patient.</p>
+                </div>
+                
+                <h3>Leadership Structure</h3>
+                <ul>
+                    <li>All leads are partnered with a second lead to share responsibilities</li>
+                    <li>If you're junior, we'll make sure you're paired with someone more senior</li>
+                    <li>One of our core missions is providing learning opportunities regardless of skill level</li>
+                </ul>
+                
+                <h3>Lead Onboarding Process</h3>
+                <ol>
+                    <li>Once selected, you'll be invited to an onboarding call with all team leads</li>
+                    <li>You'll get access to a private leads channel in our Slack workspace</li>
+                    <li>We'll provide a comprehensive team lead guide with steps to take before the event:</li>
+                    <ul>
+                        <li>Meeting with your assigned nonprofit</li>
+                        <li>Setting up the GitHub repository</li>
+                        <li>Making initial technical decisions</li>
+                        <li>Planning your project's scope</li>
+                    </ul>
+                    <li>The guide also includes suggestions for dividing responsibilities during the event</li>
+                </ol>
+                
+                <h3>Team Lead Responsibilities</h3>
+                <ul>
+                    <li>Meeting with nonprofits before the event to understand their needs</li>
+                    <li>Setting up project infrastructure and initial codebase</li>
+                    <li>Presenting your project during the kickoff</li>
+                    <li>Helping team members get set up and oriented</li>
+                    <li>Facilitating work distribution and technical decision-making</li>
+                    <li>Ensuring the project meets the nonprofit's goals</li>
+                    <li>Coordinating the final presentation</li>
+                </ul>
+                
+                <p>Being a team lead is an incredibly rewarding experience that can help you develop your leadership skills while making a genuine impact.</p>
+            </div>
+
+            <div id="nonprofits" class="tab-content section">
+                <div class="section-title">
+                    <div class="section-icon">🌟</div>
+                    <h2>For Nonprofit/Social Sector Partners</h2>
+                </div>
+                
+                <p>Nonprofit partners are essential participants in the Python for Good event! Your presence ensures projects stay aligned with your organization's actual needs.</p>
+                
+                <h3>Your Role at the Event</h3>
+                <ul>
+                    <li>Attending like regular participants</li>
+                    <li>Sitting with your assigned team to provide clarification and answers</li>
+                    <li>Joining team leads when pitching the project during kickoff</li>
+                    <li>Answering questions during the "speed dating" session</li>
+                    <li>Being available to provide context and feedback throughout the event</li>
+                    <li>Participating in the final presentations to share how the project will impact your work</li>
+                </ul>
+                
+                <p>Your expertise is crucial because even with thorough discovery sessions, our team leads can't learn everything about your organization's needs. Having you present ensures teams aren't blocked waiting for answers.</p>
+                
+                <p>We strive to make Python for Good a productive and enjoyable experience for our nonprofit partners, and we work hard to deliver software solutions that continue to provide value long after the event concludes.</p>
+            </div>
+        </div>
+        
+        <div class="cta-container">
+            <a href="index.html" class="cta">Back to Home</a>
+        </div>
+
+        <footer>
+            <p>© 2025 Python for Good. All Rights Reserved.</p>
+            <p>Making the world better, one line of code at a time.</p>
+        </footer>
+    </div>
+
+    <script>
+        function openTab(evt, tabName) {
+            // Declare variables
+            var i, tabcontent, tablinks;
+            
+            // Get all elements with class="tab-content" and hide them
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+                tabcontent[i].classList.remove("active");
+            }
+            
+            // Get all elements with class="tab" and remove the class "active"
+            tablinks = document.getElementsByClassName("tab");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(tabName).style.display = "block";
+            document.getElementById(tabName).classList.add("active");
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+</html>
