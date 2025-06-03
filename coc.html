@@ -7,6 +7,65 @@
   <title>Code of Conduct - Python for Good</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <style>
+    .coc-section {
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: var(--box-shadow);
+      padding: 2rem 2.5rem;
+      margin-bottom: 2.5rem;
+      transition: var(--transition);
+      border-left: 8px solid var(--python-blue);
+    }
+
+    .coc-section.coc-intro {
+      background: var(--light-bg);
+      border-left: 8px solid var(--python-yellow);
+      font-size: 1.15rem;
+      font-weight: 500;
+      color: #222;
+    }
+
+    .coc-section.coc-ack {
+      border-left: 8px solid var(--python-yellow);
+      background: #fdf8e3;
+    }
+
+    .coc-title {
+      font-size: 2rem;
+      color: var(--python-blue);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .coc-icon {
+      font-size: 1.7rem;
+      vertical-align: middle;
+    }
+
+    .coc-section ul {
+      margin-left: 1.5rem;
+      margin-bottom: 0;
+      font-size: 1.08rem;
+    }
+
+    .coc-section li {
+      margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 600px) {
+      .coc-section {
+        padding: 1.2rem 0.7rem;
+      }
+
+      .coc-title {
+        font-size: 1.2rem;
+      }
+    }
+
     :root {
       --python-blue: #3776ab;
       --python-yellow: #ffd43b;
@@ -202,6 +261,23 @@
       margin: 2rem 0;
     }
 
+    .register {
+      background-color: var(--python-yellow);
+      color: rgb(73, 71, 71);
+      padding: 0.5rem 1.5rem;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .register:hover {
+      background-color: var(--dark-blue);
+      color: white;
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
     footer {
       margin-top: 4rem;
       padding-top: 2rem;
@@ -293,70 +369,63 @@
       <li><a href="attend.html">Attend</a></li>
       <li><a href="faq.html">FAQ</a></li>
       <li><a href="sponsor.html">Sponsors</a></li>
+      <li><a href="https://ti.to/codeforgood/pythonforgood" class="register register-scroll">Register</a></li>
     </ul>
   </nav>
 
   <div class="container">
     <header>
+      <div><a href="https://ti.to/codeforgood/pythonforgood" class="cta register-nav" target="_blank" rel="noopener">❤️
+          Register to Attend ❤️</a></div>
       <h1>Python for Good</h1>
       <h1>Code of Conduct</h1>
       <div class="subtitle">Fostering a Respectful, Inclusive Environment</div>
     </header>
 
-    <div>
+    <section class="coc-section coc-intro">
       <p>All participants, including attendees, sponsors, speakers, volunteers, and organizers, are required to agree to
         and follow this Code of Conduct to help ensure a safe and welcoming environment for everyone.</p>
+    </section>
 
-      <div>
-        <div>Respectful Behavior</div>
-        <div>
-          <p>Treat everyone with respect. Harassment and exclusionary behavior are not acceptable. This includes, but is
-            not limited to:</p>
-          <ul>
-            <li>Offensive verbal or written comments</li>
-            <li>Sexual language or imagery</li>
-            <li>Deliberate intimidation, stalking, or following</li>
-            <li>Harassing photography or recording</li>
-            <li>Sustained disruption of talks or other events</li>
-            <li>Inappropriate physical contact or unwelcome sexual attention</li>
-          </ul>
-        </div>
-      </div>
+    <section class="coc-section">
+      <h2 class="coc-title"><span class="coc-icon">🤝</span> Respectful Behavior</h2>
+      <p>Treat everyone with respect. Harassment and exclusionary behavior are not acceptable. This includes, but is not
+        limited to:</p>
+      <ul>
+        <li>Offensive verbal or written comments</li>
+        <li>Sexual language or imagery</li>
+        <li>Deliberate intimidation, stalking, or following</li>
+        <li>Harassing photography or recording</li>
+        <li>Sustained disruption of talks or other events</li>
+        <li>Inappropriate physical contact or unwelcome sexual attention</li>
+      </ul>
+    </section>
 
-      <div>
-        <div>Inclusive Environment</div>
-        <div>
-          <p>We are committed to providing an inclusive and friendly environment for all, regardless of gender identity,
-            sexual orientation, disability, physical appearance, body size, race, or religion.</p>
-        </div>
-      </div>
+    <section class="coc-section">
+      <h2 class="coc-title"><span class="coc-icon">🌈</span> Inclusive Environment</h2>
+      <p>We are committed to providing an inclusive and friendly environment for all, regardless of gender identity,
+        sexual orientation, disability, physical appearance, body size, race, or religion.</p>
+    </section>
 
-      <div>
-        <div>Reporting Issues</div>
-        <div>
-          <p>If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible to a
-            staff member or email <a href="mailto:info@pythonforgood.org">info@pythonforgood.org</a>. All reports
-            will be handled with discretion.</p>
-        </div>
-      </div>
+    <section class="coc-section">
+      <h2 class="coc-title"><span class="coc-icon">📢</span> Reporting Issues</h2>
+      <p>If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible to a staff
+        member or email <a href="mailto:info@pythonforgood.org">info@pythonforgood.org</a>. All reports will be handled
+        with discretion.</p>
+    </section>
 
-      <div>
-        <div>Consequences</div>
-        <div>
-          <p>Participants violating these rules may be asked to leave the event without a refund, and future
-            participation may be affected depending on the situation.</p>
-        </div>
-      </div>
+    <section class="coc-section">
+      <h2 class="coc-title"><span class="coc-icon">⚠️</span> Consequences</h2>
+      <p>Participants violating these rules may be asked to leave the event without a refund, and future participation
+        may be affected depending on the situation.</p>
+    </section>
 
-      <div>
-        <div>Acknowledgments</div>
-        <div>
-          <p>Our Code of Conduct is inspired by and adapted from the <a
-              href="https://www.contributor-covenant.org/">Contributor Covenant</a> and other open source community
-            standards.</p>
-        </div>
-      </div>
-    </div>
+    <section class="coc-section coc-ack">
+      <h2 class="coc-title"><span class="coc-icon">🙏</span> Acknowledgments</h2>
+      <p>Our Code of Conduct is inspired by and adapted from the <a
+          href="https://www.contributor-covenant.org/">Contributor Covenant</a> and other open source community
+        standards.</p>
+    </section>
 
     <div class="cta-container">
       <a href="faq.html" class="cta">Back to FAQ</a>
