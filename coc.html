@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code of Conduct - Python for Good</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    :root {
+      --python-blue: #3776ab;
+      --python-yellow: #ffd43b;
+      --dark-blue: #306998;
+      --light-bg: #f5f9fc;
+      --box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      --transition: all 0.3s ease;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--light-bg);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+      position: relative;
+    }
+
+    h1 {
+      color: var(--python-blue);
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.5px;
+    }
+
+    h2 {
+      color: var(--dark-blue);
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .subtitle {
+      color: var(--python-yellow);
+      font-size: 1.5rem;
+      font-weight: bold;
+      background-color: var(--dark-blue);
+      display: inline-block;
+      padding: 0.5rem 1.5rem;
+      border-radius: 50px;
+      margin-bottom: 2rem;
+      box-shadow: var(--box-shadow);
+    }
+
+    .location-banner {
+      background-color: var(--python-yellow);
+      color: var(--dark-blue);
+      padding: 0.8rem 1.5rem;
+      border-radius: 50px;
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin: -1rem auto 2rem;
+      display: inline-block;
+      box-shadow: var(--box-shadow);
+    }
+
+    .location-icon {
+      margin-right: 0.5rem;
+    }
+
+    .announcement {
+      background-color: white;
+      border-radius: 12px;
+      padding: 2.5rem;
+      box-shadow: var(--box-shadow);
+      margin-bottom: 3rem;
+      text-align: left;
+    }
+
+    .announcement p {
+      font-size: 1.1rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .date-banner {
+      background-color: var(--python-blue);
+      color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 2rem 0;
+      text-align: center;
+      box-shadow: var(--box-shadow);
+    }
+
+    .date {
+      font-size: 2.2rem;
+      font-weight: bold;
+      margin: 0.5rem 0;
+      display: block;
+    }
+
+    .date-label {
+      font-size: 1.3rem;
+      opacity: 0.9;
+      display: block;
+    }
+
+    .python-logo {
+      margin: 1rem auto;
+      width: 400px;
+      height: 400px;
+      display: block;
+      filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 3rem 0;
+      gap: 2rem;
+    }
+
+    .feature {
+      flex-basis: calc(29% - 2rem);
+      background-color: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: var(--box-shadow);
+      transition: var(--transition);
+      text-align: center;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    }
+
+    .feature-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: var(--python-blue);
+    }
+
+    .feature h3 {
+      color: var(--dark-blue);
+      margin-top: 0.5rem;
+    }
+
+    .cta {
+      background-color: var(--python-blue);
+      color: white;
+      text-decoration: none;
+      border: none;
+      padding: 1rem 2.5rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: var(--transition);
+      margin-top: 2rem;
+      display: inline-block;
+      box-shadow: var(--box-shadow);
+    }
+
+    .cta:hover {
+      background-color: var(--dark-blue);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .highlight {
+      background-color: rgba(255, 212, 59, 0.2);
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    .event-details {
+      margin-top: 2rem;
+      padding: 1.5rem;
+      background-color: rgba(55, 118, 171, 0.05);
+      border-left: 4px solid var(--python-blue);
+      border-radius: 0 8px 8px 0;
+    }
+
+    .location-details {
+      background-color: rgba(255, 212, 59, 0.1);
+      border-left: 4px solid var(--python-yellow);
+      border-radius: 0 8px 8px 0;
+      padding: 1.5rem;
+      margin: 2rem 0;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid #eee;
+      color: #777;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    /* Navigation styles */
+    nav {
+      background-color: var(--python-blue);
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: var(--box-shadow);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      margin: 0 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: var(--transition);
+    }
+
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    nav a.active {
+      background-color: var(--python-yellow);
+      color: var(--dark-blue);
+    }
+
+    .cta-container {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+      }
+
+      .feature {
+        flex-basis: 100%;
+        margin-bottom: 1.5rem;
+      }
+
+      .announcement {
+        padding: 1.5rem;
+      }
+
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav li {
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="attend.html">Attend</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="sponsor.html">Sponsors</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <header>
+      <h1>Python for Good</h1>
+      <h1>Code of Conduct</h1>
+      <div class="subtitle">Fostering a Respectful, Inclusive Environment</div>
+    </header>
+
+    <div>
+      <p>All participants, including attendees, sponsors, speakers, volunteers, and organizers, are required to agree to
+        and follow this Code of Conduct to help ensure a safe and welcoming environment for everyone.</p>
+
+      <div>
+        <div>Respectful Behavior</div>
+        <div>
+          <p>Treat everyone with respect. Harassment and exclusionary behavior are not acceptable. This includes, but is
+            not limited to:</p>
+          <ul>
+            <li>Offensive verbal or written comments</li>
+            <li>Sexual language or imagery</li>
+            <li>Deliberate intimidation, stalking, or following</li>
+            <li>Harassing photography or recording</li>
+            <li>Sustained disruption of talks or other events</li>
+            <li>Inappropriate physical contact or unwelcome sexual attention</li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <div>Inclusive Environment</div>
+        <div>
+          <p>We are committed to providing an inclusive and friendly environment for all, regardless of gender identity,
+            sexual orientation, disability, physical appearance, body size, race, or religion.</p>
+        </div>
+      </div>
+
+      <div>
+        <div>Reporting Issues</div>
+        <div>
+          <p>If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible to a
+            staff member or email <a href="mailto:info@pythonforgood.org">info@pythonforgood.org</a>. All reports
+            will be handled with discretion.</p>
+        </div>
+      </div>
+
+      <div>
+        <div>Consequences</div>
+        <div>
+          <p>Participants violating these rules may be asked to leave the event without a refund, and future
+            participation may be affected depending on the situation.</p>
+        </div>
+      </div>
+
+      <div>
+        <div>Acknowledgments</div>
+        <div>
+          <p>Our Code of Conduct is inspired by and adapted from the <a
+              href="https://www.contributor-covenant.org/">Contributor Covenant</a> and other open source community
+            standards.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta-container">
+      <a href="faq.html" class="cta">Back to FAQ</a>
+      <a href="https://ti.to/codeforgood/pythonforgood" class="cta">Register Now</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Code for Good. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

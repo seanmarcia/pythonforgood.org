@@ -265,6 +265,24 @@
       transition: var(--transition);
     }
 
+    .register {
+      background-color: var(--python-yellow);
+      color: rgb(73, 71, 71);
+      padding: 0.5rem 1.5rem;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .register:hover {
+      background-color: var(--dark-blue);
+      color: white;
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+
     .back-to-top:hover {
       opacity: 1;
       transform: translateY(-5px);
@@ -305,11 +323,15 @@
       <li><a href="attend.html">Attend</a></li>
       <li><a href="faq.html" class="active">FAQ</a></li>
       <li><a href="sponsor.html">Sponsors</a></li>
+      <li><a href="https://ti.to/codeforgood/pythonforgood" class="register register-scroll">Register</a></li>
+
     </ul>
   </nav>
 
   <div class="container">
     <header>
+      <div><a href="https://ti.to/codeforgood/pythonforgood" class="cta register-nav" target="_blank" rel="noopener">❤️
+          Register to Attend ❤️</a></div>
       <img class="python-logo" src="./pfg1.png" alt="Python for Good Logo">
       <h1>Frequently Asked Questions</h1>
       <div class="subtitle">Find Answers About Python for Good</div>
@@ -594,6 +616,7 @@
     <footer>
       <p>© 2025 Python for Good. All Rights Reserved.</p>
       <p>Making the world better, one line of code at a time.</p>
+      <p><a href="coc.html">Code of Conduct</a></p>
     </footer>
   </div>
 

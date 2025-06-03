@@ -221,6 +221,23 @@
             box-shadow: var(--box-shadow);
         }
 
+        .register {
+            background-color: var(--python-yellow);
+            color: rgb(73, 71, 71);
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .register:hover {
+            background-color: var(--dark-blue);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
         nav ul {
             display: flex;
             justify-content: center;
@@ -293,16 +310,21 @@
             <li><a href="attend.html">Attend</a></li>
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="sponsor.html">Sponsors</a></li>
+            <li><a href="https://ti.to/codeforgood/pythonforgood" class="register register-scroll">Register</a></li>
         </ul>
     </nav>
 
     <div class="container">
         <header>
+            <div><a href="https://ti.to/codeforgood/pythonforgood" class="cta register-nav" target="_blank"
+                    rel="noopener">❤️ Register to Attend ❤️</a></div>
             <img class="python-logo" src="pfg1.png" alt="Python for Good Logo">
-            <div class="subtitle">Using Code to Make a Difference</div>
-            <div class="location-banner">
-                <span class="location-icon">📍</span>San Francisco Bay Area In-Person Event
-            </div>
+
+            <div class="cta-container">
+                <div class="subtitle">Using Code to Make a Difference</div>
+                <div class="location-banner">
+                    <span class="location-icon">📍</span>San Francisco Bay Area In-Person Event
+                </div>
         </header>
 
         <div class="announcement">
@@ -318,12 +340,15 @@
 
             <div class="location-details">
                 <h2>Where Is This Happening?</h2>
-                <p><strong>This is an in-person event</strong> taking place at the <span class="highlight">NatureBridge Golden Gate</span> 
-                retreat space in the San Francisco Bay Area. This stunning venue is nestled within the Golden Gate National Recreation Area, 
-                offering an inspiring natural setting for our coding community.</p>
-                
-                <p>NatureBridge provides comfortable workspaces, reliable WiFi, on-site accommodations, and is easily accessible from San Francisco. 
-                You'll enjoy coding with breathtaking views of the Pacific Ocean and surrounding landscapes.</p>
+                <p><strong>This is an in-person event</strong> taking place at the <span class="highlight">NatureBridge
+                        Golden Gate</span>
+                    retreat space in the San Francisco Bay Area. This stunning venue is nestled within the Golden Gate
+                    National Recreation Area,
+                    offering an inspiring natural setting for our coding community.</p>
+
+                <p>NatureBridge provides comfortable workspaces, reliable WiFi, on-site accommodations, and is easily
+                    accessible from San Francisco.
+                    You'll enjoy coding with breathtaking views of the Pacific Ocean and surrounding landscapes.</p>
             </div>
 
             <div class="event-details">
@@ -380,8 +405,8 @@
         <footer>
             <p>© 2025 Python for Good. All Rights Reserved.</p>
             <p>Making the world better, one line of code at a time.</p>
+            <p><a href="coc.html">Code of Conduct</a></p>
         </footer>
     </div>
 </body>
-
 </html>
